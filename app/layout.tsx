@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://jhanalves.com.br'),
+  metadataBase: new URL("https://jhanvisage.com.br"),
   title: "Jhan Alves | Studio Visage",
   description:
     "Visagismo masculino estratégico para homens que querem presença, identidade e autoridade.",
@@ -10,8 +10,19 @@ export const metadata: Metadata = {
     title: "Jhan Alves | Studio Visage",
     description:
       "Visagismo masculino estratégico para homens que querem presença, identidade e autoridade.",
-    images: ["/images/og-image.png"]
-  }
+    url: "https://jhanvisage.com.br",
+    siteName: "Jhan Studio Visage",
+    images: [
+      {
+        url: "https://jhanvisage.com.br/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Jhan Alves | Studio Visage",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
